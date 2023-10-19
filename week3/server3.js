@@ -5,7 +5,7 @@ let friends = [
         isWizard: true,
         friends: ['Ron', 'Hermione', 'Hedwig'],
         introduce: function() {
-            console.log("Greetings, my name is ${this.firstName}.")
+            console.log(`Greetings, my name is ${this.firstName}.`)
         }
     },
     {
@@ -14,7 +14,7 @@ let friends = [
         isWizard: true,
         friends: ['Harry', 'Hermione', 'Hedwig'],
         introduce: function() {
-            console.log("Greetings, my name is ${this.firstName}.")
+            console.log(`Greetings, my name is ${this.firstName}.`)
         }
     },
     {
@@ -23,7 +23,7 @@ let friends = [
         isWizard: true,
         friends: ['Ron', 'Harry', 'Hedwig'],
         introduce: function() {
-            console.log("Greetings, my name is ${this.firstName}.")
+            console.log(`Greetings, my name is ${this.firstName}.`)
         }
     },
     {
@@ -32,7 +32,7 @@ let friends = [
         isWizard: false,
         friends: ['Ron', 'Hermione', 'Harry'],
         introduce: function() {
-            console.log("Greetings, my name is ${this.firstName}.")
+            console.log(`Greetings, my name is ${this.firstName}.`)
         }
     },
 ]
